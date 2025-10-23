@@ -1,0 +1,12 @@
+project_name = "demo-app"
+environment  = "dev"
+location     = "eastus"
+
+# Set this via environment variable or secure input
+# db_admin_password = "your-secure-password"
+
+tags = {
+  Project     = "Demo App"
+  Environment = "Development"
+  ManagedBy   = "Terraform"
+}
